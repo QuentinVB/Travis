@@ -9,6 +9,7 @@ namespace Travis
             var name = new Service().DoSomething();
 
             Console.WriteLine("Hello {0}", name);
+            Console.Read();
         }
     }
 }
